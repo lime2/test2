@@ -1,0 +1,15 @@
+{
+  "name": "public-site-test",
+  "version": "1.0.0",
+  "description": "i am kinda a monkey for this made the front end a while ago",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}

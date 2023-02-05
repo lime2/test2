@@ -1,0 +1,126 @@
+.c1 {
+    color:crimson;
+    background:darkturquoise;
+}
+
+.c2 {
+    color:darkgoldenrod;
+    background:darkgray;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+.right {
+    text-align: right;
+    font-weight:lighter;
+    text-decoration: darkgreen wavy underline;
+}
+
+.big {
+    font-size:50px;
+    font-family: monospace;
+}
+
+.h:hover {
+    font-size:30px;
+}
+
+.h:active {
+    font-weight:bolder;
+}
+
+.box {
+    background: darkblue;
+    color:lightpink;
+    border-radius:10px;
+    width:100px;
+    text-align: center;
+    padding:10px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box2 {
+    background: darkblue;
+    color:rgba(0,255,150,.5);
+    border-radius:10px;
+    width:100px;
+    text-align: center;
+    padding:10px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#border {
+    border: 5px solid black;
+}
+
+.table1 th,.table1 td {
+    border:3px solid black;
+    padding:3px;
+}
+
+.imgwrap {
+    border:5px dashed grey;
+    width:230px;
+    box-sizing: content-box;
+    margin:20px;
+}
+
+.imgwrap img {
+    border:2px solid green;
+    width:206px;
+    margin:10px;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.imgwrap div {
+    font-size:30px;
+    text-align: center;
+}
+
+#tran1 {
+    background: lightblue;
+    color:darkgreen;
+    width:130px;
+    text-align: center;
+    padding:10px;
+    border:2px solid rgb(0,50,100);
+    border-radius:1rem;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;;
+    transition:background-color 1s ease-in-out, margin-left 1s ease-in-out;
+}
+
+#tran1:hover {
+    margin-left: 20px;
+    background: blue;
+}
+
+/*
+    some notes on selectors i guess
+    a[href='this'] {} equals
+    a[href='this' s] {} removes case sensitivity
+    a[href*='this'] {} contains
+    a[href$='.org'] {} ends
+    
+    a p {} descendant
+    a.p {} class of element
+
+    a > p direct descendant
+    a + p selects p after a
+
+    pseudo classes
+    :hover obvious
+    :active while you are clicking
+    :checked for checkboxes and radio buttons
+    :nth-of-type(#) selects the # element
+    :nth-of-type(#n) selects every # element
+
+    pseudo elements
+    ::first-letter obvious
+    ::first-line obvious
+    ::selection (what is being highlighted)
+*/ 
